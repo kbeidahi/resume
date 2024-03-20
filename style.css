@@ -264,6 +264,18 @@ section{
     .main{
         background-image: url(img/WhatsApp\ Image\ 2024-02-28\ at\ 14.03.15_a2ce16d6.jpg);
     }
+@media only screen 
+    and (width : 375px) 
+    and (height : 812px)
+    and (orientation : portrait)  
+    and (-webkit-device-pixel-ratio : 3) {
+     body{
+        font-size: 10px;
+    } 
+    .main{
+        background-image: url(img/WhatsApp\ Image\ 2024-02-28\ at\ 14.03.15_a2ce16d6.jpg);
+    }
+    }
     
 
 
